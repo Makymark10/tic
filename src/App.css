@@ -1,0 +1,69 @@
+#root {
+
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.square {
+  /* background-color: #212121; */
+  line-height: 0;
+  padding: 13.5px;
+  height: 2rem;
+  width: 2rem;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+.clicked {
+  line-height: 0;
+  padding: 0;
+  height: 2rem;
+  width: 2rem;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+.board-row {
+  padding: 0;
+  margin: 0;
+  width: 166px;
+  height: 32px;
+}
+
+.h1Style {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* status */
+.status {
+  padding: 1rem;
+}
+
+ol {
+  margin-top: 6px;
+  padding-left: 26px;
+  list-style: none;
+}
+
+li {
+
+  width: 112px;
+  cursor: pointer;
+  padding: 1px;
+}
+
+.history {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.game {
+  height: 100%;
+}
+
+
+
